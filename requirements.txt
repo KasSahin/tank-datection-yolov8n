@@ -1,0 +1,8 @@
+# Raspberry Pi & Edge Inference Dependencies
+# For GUI window support (cv2.imshow):
+opencv-python>=4.8.0
+onnxruntime>=1.15.0
+numpy>=1.24.0
+
+# Note: For headless servers/RPi Lite without desktop, use:
+# opencv-python-headless>=4.8.0

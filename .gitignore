@@ -1,0 +1,51 @@
+# ─── Python ───
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Virtual Environment ───
+.venv/
+venv/
+env/
+ENV/
+
+# ─── Model Weights & Checkpoints (Large files -> use Git LFS or Releases) ───
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.ncnn*
+runs/
+*.weights
+
+# ─── Datasets & Archives ───
+dataset_split/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ─── IDE & Editors ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Operating System ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs & Tracking ───
+*.log
+wandb/
+mlruns/
+
+# ─── Nested Git/Clones (if any) ───
+tank-detection-yolov8/
